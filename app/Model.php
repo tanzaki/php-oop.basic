@@ -13,6 +13,7 @@ class Model
 {
     static function create()
     {
-        echo '<div>Creating new</div>';
+        echo '<div>Creating new '.static::class.'</div>';
+        return new static();
     }
 }
