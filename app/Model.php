@@ -3,6 +3,13 @@
  * Created by PhpStorm.
  * User: admin
  * Date: 7/14/2017
- * Time: 6:15 PM
+ * Time: 6:14 PM
  */
-require_once 'app/Model.php';
+
+namespace App;
+
+
+class Model
+{
+
+}
