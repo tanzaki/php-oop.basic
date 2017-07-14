@@ -5,8 +5,8 @@
  * Date: 7/14/2017
  * Time: 6:10 PM
  */
-use App\Model;
+use App\Task;
 
 require 'loader.php';
-new Model();
+Task::create();
 echo 'App running';

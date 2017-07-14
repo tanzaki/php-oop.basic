@@ -11,5 +11,8 @@ namespace App;
 
 class Model
 {
-
+    static function create()
+    {
+        echo '<div>Creating new</div>';
+    }
 }
